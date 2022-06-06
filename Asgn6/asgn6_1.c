@@ -9,7 +9,7 @@ int main()
     printf("Enter the elements of array:\n");
     for (i = 0; i < n; i++)
         scanf("%d", &a[i]);
-    system("cls");
+    printf("\nPrinting those numbers:\n");
     for (i = 0; i < n; i++)
         printf("element %d: %d\n",i+1, a[i]);
 
